@@ -5,7 +5,7 @@ category: manuscripts
 permalink: /publication/2023-07-01-growth-transportation-modes
 excerpt: 'Keywords: Spatial Econometrics, Heterogeneity, Synthetic Instruments, Two-step GMM, Dynamic Spatial Durbin Model'
 date: 2023-07-01
-venue: '10th International Workshop on Regional, Urban, and Spatial Economics, Peking University, China'
+venue: '18th Spatial Economics World Conference, University of Groningen, Netherlands'
 citation: 'Yujing Yang. (2024). "Spatial Dynamics of Freight Efficiency: Synthetic Instruments in Dynamic Spatial Durbin Models." Presented at the 10th International Workshop on Regional, Urban, and Spatial Economics, Peking University, China.'
 ---
 
