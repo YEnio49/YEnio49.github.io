@@ -24,8 +24,8 @@ author:
   avatar           : "YYJ.png"
   name             : "Yujing Yang"
   pronouns         : # example: "she/her"  
-  bio              : "Economic Geography; Spatial Econometrics; Transportation"
-  location         : "Birmingham. United Kingdom"
+  bio              : "Spatial Econometrics; Economic Geography; Regional Development; Transportation"
+  location         : "Birmingham, United Kingdom"
   employer         : "University of Birmingham"
   uri              : # URL
   email            : "YXY888@student.bham.ac.uk" 
@@ -34,7 +34,7 @@ author:
 
 
 # Publication Category - The following the list of publication categories and their headings
-publication_category:
+Recent Research:
   books:
     title: 'Books'
   manuscripts:
