@@ -1,6 +1,6 @@
 ---
 title: "Road Network Analysis: Chengdu to Meishan"
-excerpt: "Comparative Road Network Analysis between 2014 and 2021 for Chengdu and Meishan <br/><img src='/images/network_analysis_chengdu_meishan.png'>"
+excerpt: "Comparative Road Network Analysis between 2014 and 2021 for Chengdu and Meishan <br/><img src='/images/sproad1421.png'>"
 collection: portfolio
 ---
 
@@ -16,8 +16,8 @@ The network analysis was conducted using QGIS tools to determine the shortest ro
 ### Visualization
 The analysis results are visualized in the network maps below, illustrating the evolution of the road network and the resultant changes in the shortest path between the two cities.
 
-<img src='sproad14.png' alt='Network Analysis 2014' width='500'/>
-<img src='sproad21.png' alt='Network Analysis 2021' width='500'/>
+<img src='/images/sproad14.png' alt='Network Analysis 2014' width='500'/>
+<img src='/images/sproad21.png' alt='Network Analysis 2021' width='500'/>
 
 ### Tools Used
 - **QGIS**: For performing the network analysis and generating the maps.
