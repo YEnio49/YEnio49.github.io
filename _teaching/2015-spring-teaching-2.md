@@ -1,20 +1,16 @@
 ---
-title: "Teaching experience 2"
+title: "Postgraduate Teaching Assistant - Topics in Money, Banking, and Finance"
 collection: teaching
-type: "Workshop"
-permalink: /teaching/2015-spring-teaching-1
-venue: "University 1, Department"
-date: 2015-01-01
-location: "City, Country"
+type: "Graduate Course"
+permalink: /teaching/2022-winter-postgraduate-ta
+venue: "University of Birmingham, Department of Economics"
+date: 2022-12-01
+location: "Birmingham, United Kingdom"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+As a Postgraduate Teaching Assistant for the Winter 2022 semester, I supported the delivery of the course "Topics in Money, Banking, and Finance" at the University of Birmingham. My role involved leading discussion sections, explaining assignments, and providing feedback to students. I also held office hours to assist students with their understanding of complex topics, such as monetary policy, banking regulation, and financial stability.
 
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
+### Key Responsibilities
+- Leading tutorial sessions
+- Grading assignments and providing constructive feedback
+- Supporting students in their understanding of advanced economic concepts
