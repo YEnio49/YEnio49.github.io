@@ -6,7 +6,6 @@ permalink: /publication/2023-07-01-growth-transportation-modes
 excerpt: 'Keywords: Urban Resilience, Network Analysis, Market Accessibility, K-means Cluster, Dynamic Spatial Autoregressive Model'
 date: 2023-07-01
 venue: 'working on'
-citation: 'Yujing Yang. "All Roads Lead to Rome: The Role of Road Networks in the Economic Resilience of Cities."'
 ---
 
 
