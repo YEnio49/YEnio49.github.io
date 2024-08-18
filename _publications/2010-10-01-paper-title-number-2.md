@@ -1,14 +1,15 @@
 ---
-title: "Paper Title Number 2"
+title: "Spatial Dynamics of Freight Efficiency: Synthetic Instruments in Dynamic Spatial Durbin Models"
 collection: publications
 category: manuscripts
-permalink: /publication/2010-10-01-paper-title-number-2
-excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
-date: 2010-10-01
-venue: 'Journal 1'
-slidesurl: 'http://academicpages.github.io/files/slides2.pdf'
-paperurl: 'http://academicpages.github.io/files/paper2.pdf'
-citation: 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
+permalink: /publication/2023-07-01-growth-transportation-modes
+excerpt: 'Keywords: Spatial Econometrics, Heterogeneity, Synthetic Instruments, Two-step GMM, Dynamic Spatial Durbin Model'
+date: 2023-07-01
+venue: '10th International Workshop on Regional, Urban, and Spatial Economics, Peking University, China'
+citation: 'Yujing Yang. (2024). "Spatial Dynamics of Freight Efficiency: Synthetic Instruments in Dynamic Spatial Durbin Models." Presented at the 10th International Workshop on Regional, Urban, and Spatial Economics, Peking University, China.'
 ---
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+
+This paper explores the application of eigenvector-based spatial filters to construct synthetic instruments within a dynamic spatial Durbin model. By employing an exogenous geographic matrix, the technique strategically avoids weak instruments through a controlled selection process. The validity of these instruments is then confirmed using the generalized method of moments (GMM). Additionally, we conduct empirical regional analyses to gauge the spatial effects of these instruments. Results indicate that synthetic instruments significantly presents spatial effects in the model, although their performance is contingent upon the rigour of the selection process and the appropriate threshold of instrument quantity. 
+
+Presented at the 18th Spatial Economics World Conference, University of Groningen, Netherlands, July 2024.
