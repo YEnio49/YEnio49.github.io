@@ -13,8 +13,6 @@ I am particularly interested in exploring how emerging technologies, such as Mac
 
 Outside of academia, I am passionate about digital painting and gaming. In my free time, I enjoy creating magazine covers and game illustrations. 
 
-You can find my CV here: [Yujing Yang's Curriculum Vitae](your-cv-link-here).
-
 ---
 
 Feel free to connect with me via:
