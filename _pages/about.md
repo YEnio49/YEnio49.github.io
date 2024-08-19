@@ -18,5 +18,5 @@ Outside of academia, I am passionate about digital painting and gaming. In my fr
 Feel free to connect with me via:
 
 - [Email](mailto:YXY888@student.bham.ac.uk)
-- [GitHub]([https://github.com/YEnio49])
+- [GitHub](https://github.com/YEnio49)
 - [LinkedIn](https://www.linkedin.com/in/yujing-yang-0409yy)
