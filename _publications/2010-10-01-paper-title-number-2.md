@@ -8,7 +8,7 @@ date: 2023-07-01
 venue: '18th Spatial Economics World Conference, University of Groningen, Netherlands'
 ---
 
-**Status:** Presented at Conference
+**Status:** Presented at Conference<br>
 This paper explores the application of eigenvector-based spatial filters to construct synthetic instruments within a dynamic spatial Durbin model. By employing an exogenous geographic matrix, the technique strategically avoids weak instruments through a controlled selection process. The validity of these instruments is then confirmed using the generalized method of moments (GMM). Additionally, we conduct empirical regional analyses to gauge the spatial effects of these instruments. Results indicate that synthetic instruments significantly presents spatial effects in the model, although their performance is contingent upon the rigour of the selection process and the appropriate threshold of instrument quantity. 
 
 Presented at the 18th Spatial Economics World Conference, University of Groningen, Netherlands, July 2024.
