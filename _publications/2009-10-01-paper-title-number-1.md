@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 permalink: /publication/2023-07-01-growth-transportation-modes
 excerpt: 'Keywords: Multimodal Infrastructure, Spillover Effects, Regional Inequality'
-date: 2024-07-01
+date: 2023-07-01
 venue: '10th International Workshop on Regional, Urban, and Spatial Economics, Peking University, China'
 ---
 **Status:** Presented at Conference<br>
