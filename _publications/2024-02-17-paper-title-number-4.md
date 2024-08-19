@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 permalink: /publication/2023-07-01-growth-transportation-modes
 excerpt: 'Keywords: Urban Resilience, Network Analysis, Market Accessibility, K-means Cluster, Dynamic Spatial Autoregressive Model'
-date: 2023-07-01
+date: 2024-07-01
 venue: ''
 ---
 
