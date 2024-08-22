@@ -1,26 +1,25 @@
 ---
-title: "Road Network Analysis: Chengdu to Meishan"
-excerpt: "Comparative Road Network Analysis between 2014 and 2021 for Chengdu and Meishan <br/><img src='/images/sproad1421.png'>"
+title: "Origin-Destination Flow Analysis: Chengdu Region"
+excerpt: "Spatial OD Flow Analysis within Chengdu Region using random values <br/><img src='/images/ODflow.png'>"
 collection: portfolio
 ---
 
-This portfolio entry showcases a network analysis comparing the shortest pathways between Chengdu and Meishan for the years 2014 and 2021. Utilizing QGIS, the analysis evaluates the changes in road selection, highlighting the infrastructure developments and urban expansion in the region over this period.
+This portfolio illustrates an origin-destination (OD) flow analysis within the Chengdu region using random values. The analysis visualizes the connections and potential travel flows between various locations within the region, showcasing the complexity and density of the network.
 
 ### Analysis Overview
-The network analysis was conducted using QGIS tools to determine the shortest routes between the two cities, Chengdu and Meishan, based on road network data from 2014 and 2021. This comparison reveals significant shifts in the preferred pathways due to new road constructions and upgrades, reflecting the rapid urbanization and regional connectivity improvements.
+The OD flow analysis was performed to understand the spatial interactions between different points within the Chengdu region. The lines on the map represent potential routes between origins and destinations, providing insights into travel patterns and connectivity within the area.
 
 ### Key Findings
-- **2014 Analysis**: The shortest path primarily utilized older highways and local roads, with limited expressway options.
-- **2021 Analysis**: The development of new expressways and the expansion of the road network led to a more efficient and quicker route, reducing travel time and enhancing connectivity.
+- **Flow Density**: The map shows a dense network of connections, indicating a high level of interaction between different locations within the region.
+- **Spatial Distribution**: The connections are spread across the region, with certain hubs showing more concentrated flows, likely representing key areas of activity or higher traffic volumes.
 
 ### Visualization
-The analysis results are visualized in the network maps below, illustrating the evolution of the road network and the resultant changes in the shortest path between the two cities.
+The analysis results are visualized in the network map below, illustrating the flow lines between various points in the Chengdu region.
 
-<img src='/images/sproad14.png' alt='Network Analysis 2014' width='500'/>
-<img src='/images/sproad21.png' alt='Network Analysis 2021' width='500'/>
+<img src='/images/ODflow.png' alt='OD Flow Analysis' width='500'/>
 
 ### Tools Used
-- **QGIS**: For performing the network analysis and generating the maps.
-- **Data Sources**: Road network data for 2014 and 2021 are obtained from Openstreet Map.
+- **QGIS**: For generating the OD flow map and analyzing spatial connections.
+- **Data Sources**: The analysis uses randomly generated values for demonstration purposes.
 
-This analysis provides insights into the impact of infrastructure development on regional connectivity and urban planning.
+This analysis provides a framework for understanding the potential connectivity and interaction between locations within the Chengdu region, which can be further refined with real data for urban planning and transportation studies.
