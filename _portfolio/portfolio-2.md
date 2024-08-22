@@ -19,7 +19,7 @@ The analysis results are visualized in the network map below, illustrating the f
 <img src='/images/ODflow.png' alt='OD Flow Analysis' width='500'/>
 
 ### Tools Used
-- **QGIS**: For generating the OD flow map and analyzing spatial connections.
-- **Data Sources**: The analysis uses randomly generated values for demonstration purposes.
+- **Python**: For generating the OD flow map and analyzing spatial connections.
+- **Data Sources**: The analysis uses randomly generated values for demonstration purposes. The geographic map is from ChinaMap.
 
 This analysis provides a framework for understanding the potential connectivity and interaction between locations within the Chengdu region, which can be further refined with real data for urban planning and transportation studies.
