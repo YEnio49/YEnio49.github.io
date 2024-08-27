@@ -1,5 +1,3 @@
-# Monthly Temperature Distribution Analysis: Lincoln Weather Dataset
-
 ---
 title: "Monthly Temperature Distribution Analysis: Lincoln"
 excerpt: "Max and Min Temperature Monthly Analysis <br/><img src='/images/Rplot22.png'>"
