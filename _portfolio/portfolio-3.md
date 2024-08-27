@@ -1,5 +1,11 @@
 # Monthly Temperature Distribution Analysis: Lincoln Weather Dataset
 
+---
+title: "Monthly Temperature Distribution Analysis: Lincoln"
+excerpt: "Max and Min Temperature Monthly Analysis <br/><img src='/images/Rplot22.png'>"
+collection: portfolio
+---
+
 **A ridge plot visualization of monthly temperature distributions in the Lincoln region using density gradients and jittered points.**
 
 This analysis presents the monthly temperature distributions in the Lincoln region through a ridge plot (the sample data is from "ggridges" package). The plot visualizes the density of mean temperatures for each month of the year, providing insights into seasonal temperature variations and their distributions.
