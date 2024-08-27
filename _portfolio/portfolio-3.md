@@ -19,7 +19,7 @@ The ridge plot shows the mean temperature distribution for each month, utilizing
 ## Visualization
 
 The ridge plot below visualizes the mean temperature distributions for each month in the Lincoln region. 
-![Monthly Temperature Distribution](./images/TemperatureDistribution.png)
+![Monthly Temperature Distribution](./images/Rplot22.png)
 
 ## Tools Used
 
