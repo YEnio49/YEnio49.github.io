@@ -1,32 +1,47 @@
 ---
-title: "Monthly Temperature Distribution Analysis: Lincoln"
-excerpt: "Max and Min Temperature Monthly Analysis <br/><img src='/images/Rplot22.png'>"
+title: "Multiscale Spatial Inequality in Pollution and Health: A Policy-Sensitive MGWR Model"
+excerpt: "Mapping Environmental Health Inequality with Policy-Weighted MGWR <br/><img src='/images/policy_mgwr_map.png'>"
 collection: portfolio
 ---
 
-**A ridge plot visualization of monthly temperature distributions in the Lincoln region using density gradients and jittered points.**
+**A spatial modeling project that uses Multiscale Geographically Weighted Regression (MGWR) to analyze how pollution exposure affects health outcomes across space, modulated by local policy strength.**
 
-This analysis presents the monthly temperature distributions in the Lincoln region through a ridge plot (the sample data is from "ggridges" package). The plot visualizes the density of mean temperatures for each month of the year, providing insights into seasonal temperature variations and their distributions.
+This project investigates how pollution-related health risks are distributed unequally across regions and how the strength of local environmental policies modulates this relationship. Using a MGWR framework, we explore whether the same level of pollution leads to different health outcomes depending on where people live—and how well-protected those regions are by policy.
 
-## Analysis Overview
+## Project Overview
 
-The ridge plot shows the mean temperature distribution for each month, utilizing density ridges to illustrate the probability density function. The plot also includes jittered points to depict individual data observations, giving a more granular view of temperature variability within each month.
+- **Model**: Multiscale Geographically Weighted Regression (MGWR)
+- **Focus**: Spatial heterogeneity of pollution-health relationships
+- **Policy Component**: Local environmental governance and regulatory strength used as weighting variables
+- **Study Area**: Urban and peri-urban regions in China (data customizable)
+
+## Key Research Questions
+
+1. Does pollution exposure lead to worse health outcomes in poorly regulated areas?
+2. Can strong environmental policies buffer the negative health impacts of pollution?
+3. Are there identifiable “policy blind spots” where vulnerable populations are exposed to disproportionate environmental harm?
+
+## Methodology
+
+- **Dependent Variable**: Respiratory disease hospitalization rate / low birth weight / chronic disease prevalence
+- **Explanatory Variables**:
+  - Air pollutants (PM2.5, NO₂)
+  - Socio-economic indicators (land price, education level)
+  - Local environmental policy indicators (budget, enforcement frequency, green index)
+- **Modeling**: Spatially local regression using MGWR with interaction terms between pollution and policy strength
+- **Tools**: Python (PySAL), R (GWmodel), QGIS, Google Earth Engine
 
 ## Key Findings
 
-- **Seasonal Trends**: The plot reveals distinct seasonal temperature patterns. Winter months like January and February have lower temperatures, while summer months such as July and August feature higher temperatures.
-  
-- **Temperature Variability**: The density ridges' width and height reflect the temperature variability each month. Winter months have narrower distributions with lower peaks, indicating a tighter range of temperatures. In contrast, summer months exhibit broader distributions with higher peaks, suggesting a wider range of temperatures.
-  
-- **Probability Density**: The color gradient within each ridge, ranging from yellow to green to blue, represents temperature probability density. Lighter colors indicate lower density (fewer occurrences), while darker colors indicate higher density (more occurrences).
+- **Spatial Inequality**: Pollution-related health outcomes vary significantly across space—even at similar pollution levels—due to local policy differences.
+- **Policy Effectiveness**: Areas with stronger policy enforcement show a lower health burden per unit of pollution.
+- **Target Zones**: MGWR identifies high-risk zones with weak protection where policy interventions are urgently needed.
 
-## Visualization
-
-The ridge plot below visualizes the mean temperature distributions for each month in the Lincoln region. 
-![Monthly Temperature Distribution](/images/Rplot22.png)
 
 ## Tools Used
 
-- **R**: The plot was generated using R with the `ggplot2` and `ggridges` libraries for data visualization.
+- **Python**: Spatial data preprocessing, regression modeling
+- **R (GWmodel)**: Multiscale GWR implementation
+- **QGIS & Earth Engine**: Geospatial data collection and visualization
 
-This analysis provides a detailed perspective on the temperature distributions across different months in the Lincoln region, offering a view into seasonal weather patterns and variability. 
+This work highlights how advanced spatial modeling can inform more equitable environmental health policy by identifying where pollution harms the most—and where protections are failing.
