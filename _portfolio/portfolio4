@@ -22,7 +22,24 @@ This project investigates how pollution-related health risks are distributed une
 3. Are there identifiable “policy blind spots” where vulnerable populations are exposed to disproportionate environmental harm?
 
 ## Methodology
+## MGWR with Policy Interaction – Model Equation
 
+We use a multiscale geographically weighted regression (MGWR) model to estimate spatially varying relationships between pollution, policy, and health:
+
+$$
+y_i = \beta_0(u_i, v_i) + \beta_1(u_i, v_i) x_{1i} + \beta_2(u_i, v_i) x_{2i} + \beta_3(u_i, v_i) (x_{1i} \times x_{2i}) + \epsilon_i
+$$
+
+where:
+
+- \( y_i \): Health outcome (e.g., respiratory hospitalization rate)  
+- \( x_{1i} \): Pollution exposure (e.g., PM2.5 concentration)  
+- \( x_{2i} \): Policy intensity or enforcement score  
+- \( x_{1i} \times x_{2i} \): Interaction term capturing how policy modulates pollution impact  
+- \( \beta_k(u_i, v_i) \): Spatially varying coefficients estimated locally  
+- \( \epsilon_i \): Error term
+
+Each coefficient is estimated at location \( (u_i, v_i) \), with a variable-specific bandwidth that reflects the spatial scale of influence.
 - **Dependent Variable**: Respiratory disease hospitalization rate / low birth weight / chronic disease prevalence
 - **Explanatory Variables**:
   - Air pollutants (PM2.5, NO₂)
