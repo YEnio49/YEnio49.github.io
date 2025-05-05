@@ -31,12 +31,16 @@ $$
 
 where:
 
-- \( y_i \): Health outcome (e.g., respiratory hospitalization rate)  
-- \( x_{1i} \): Pollution exposure (e.g., PM2.5 concentration)  
-- \( x_{2i} \): Policy intensity or enforcement score  
-- \( x_{1i} \times x_{2i} \): Interaction term capturing how policy modulates pollution impact  
-- \( \beta_k(u_i, v_i) \): Spatially varying coefficients at location \((u_i, v_i)\)  
-- \( \epsilon_i \): Error term  
+$$
+\begin{aligned}
+&y_i &&\text{: Health outcome (respiratory hospitalization rate)} \\
+&x_{1i} &&\text{: Pollution exposure ( PM2.5 concentration)} \\
+&x_{2i} &&\text{: Policy intensity or enforcement score} \\
+&x_{1i} \times x_{2i} &&\text{: Interaction term capturing how policy modulates pollution impact} \\
+&\beta_k(u_i, v_i) &&\text{: Spatially varying coefficients at location } (u_i, v_i) \\
+&\epsilon_i &&\text{: Error term}
+\end{aligned}
+$$ 
 
 Each coefficient is estimated locally with variable-specific spatial bandwidths.
 
