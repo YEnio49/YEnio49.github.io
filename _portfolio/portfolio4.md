@@ -1,53 +1,61 @@
 ---
-title: "Multiscale Spatial Inequality in Pollution and Health: A Policy-Sensitive MGWR Model"
-excerpt: "Mapping Environmental Health Inequality with Policy-Weighted MGWR <br/><img src='/images/policy_mgwr_map.png'>"
+title: "Women Emotions Bias: A Multilevel Analysis"
+excerpt: "Exploring the Multilevel Structure of Women’s Emotional Expression on Social Media"
 collection: portfolio
----
+---------------------
 
-**A spatial modeling project that uses Multiscale Geographically Weighted Regression (MGWR) to analyze how pollution exposure affects health outcomes across space, modulated by local policy strength.**
+## Introduction
 
-This project investigates how pollution-related health risks are distributed unequally across regions and how the strength of local environmental policies modulates this relationship. Using a MGWR framework, we explore whether the same level of pollution leads to different health outcomes depending on where people live—and how well-protected those regions are by policy.
+This project explores the multilevel structure of women’s emotional expression on social media, analyzing how emotions propagate from individual users to groups, networks, and society. The study leverages natural language processing, social network analysis, and sentiment analysis to uncover the emotional dynamics within different levels.
 
-## Project Overview
+## Methodology
 
-- **Model**: Multiscale Geographically Weighted Regression (MGWR)  
-- **Focus**: Spatial heterogeneity of pollution-health relationships  
-- **Policy Component**: Local environmental governance and regulatory strength used as weighting variables  
-- **Study Area**: Urban and peri-urban regions in China (data customizable)  
+* **Multilevel Structure:** The analysis is divided into four levels:
 
-## Key Research Questions
+  1. **Individual Level:** Captures personal emotional triggers, expressions, and amplification.
+  2. **Group Level:** Examines emotional resonance and collective emotion formation.
+  3. **Network Level:** Analyzes cross-group emotional interactions and the influence of opinion leaders.
+  4. **Macro Level:** Investigates social norms and the impact of emotional topics in society.
+  
+## Social Media Tag
+ * **Tag Analysis:** The primary goal of Tag Analysis is to identify and quantify the frequency and emotional polarity of specific tags (keywords or hashtags) on social media platforms. We aim to use these tags to provide insights into the topics most likely to influence their emotional states.
+  1. **Emotional Tags:** Identifying tags associated with emotional expressions (e.g., #anxiety, #happy, #depressed).
+	2. **Topical Tags:** Identifying tags related to specific themes (e.g., #selfcare, #relationship, #career, #mentalhealth).
+	3. **Platform-Specific Tags:** Recognizing platform-driven tags (e.g., #ForYou on TikTok, #Explore on Instagram).
 
-1. Does pollution exposure lead to worse health outcomes in poorly regulated areas?  
-2. Can strong environmental policies buffer the negative health impacts of pollution?  
-3. Are there identifiable “policy blind spots” where vulnerable populations are exposed to disproportionate environmental harm?  
+* **Data Collection:**
 
-## Methodology – MGWR with Policy Interaction
+  * Twitter API: Extracting tweets related to women’s emotional topics.
+  * Instagram API: Collecting comments and emotional hashtags.
+  * Reddit API: Analyzing discussions in women-focused communities.
+  * Discord API: Analyzing posts in emotional support groups for women.
 
-We use a multiscale geographically weighted regression (MGWR) model to estimate spatially varying relationships between pollution, policy, and health:
+* **Emotion Detection and Analysis:**
 
-$$
-y_i = \beta_0(u_i, v_i) + \beta_1(u_i, v_i) x_{1i} + \beta_2(u_i, v_i) x_{2i} + \beta_3(u_i, v_i) (x_{1i} \times x_{2i}) + \epsilon_i
-$$
-
-where:
-
-$$
-\begin{aligned}
-&y_i &&\text{: Health outcome (respiratory hospitalization rate)} \\
-&x_{1i} &&\text{: Pollution exposure ( PM2.5 concentration)} \\
-&x_{2i} &&\text{: Policy intensity or enforcement score} \\
-&x_{1i} \times x_{2i} &&\text{: Interaction term capturing how policy modulates pollution impact} \\
-&\beta_k(u_i, v_i) &&\text{: Spatially varying coefficients at location } (u_i, v_i) \\
-&\epsilon_i &&\text{: Error term}
-\end{aligned}
-$$ 
-
-Each coefficient is estimated locally with variable-specific spatial bandwidths.
+  * BERT and VADER for sentiment classification.
+  * NetworkX and Gephi for social network analysis.
+  * Hashtag analysis for emotional topic tracking.
 
 
+## Conclusion
 
-## Tools Used
+This study employs a hierarchical model to investigate the impact of social media on women’s emotional well-being, structured across three hierarchical levels: individual characteristics, social media platform attributes, and socio-economic context.  Individual women’s emotional states (e.g., anxiety and depression - tag relats to  #DepressionHelp #Healing #PMDDWarrior ) are nested within social media platforms they use, which are further nested within broader socio-economic environments such as countries or regions. We may consider economic factors as a weight measurement in later tests. 
 
-- **Python**: Spatial preprocessing, data integration  
-- **R (GWmodel)**: MGWR model estimation  
-- **QGIS & Google Earth Engine**: Geospatial data processing and visualization  
+## Key Considerations and Potential Challenges
+
+	1.	Hierarchical Structure Clarification: It is essential to maintain a clear distinction between the different levels of the model:
+	•	Level 1 (Individual): Characteristics of women, including age, education, social media usage patterns, and baseline psychological traits.
+	•	Level 2 (Social Media Platform): Platform characteristics, such as algorithm transparency, content type (positive vs. negative), and platform usage patterns.
+	•	Level 3 (Socio-Economic Context): Regional-level indicators such as gender equality index, income level, and cultural norms.
+	2.	Random and Fixed Effects Specification: Careful consideration is required to distinguish between fixed and random effects:
+	3.	Multicollinearity Risks: Given the complex interactions between variables (e.g., social media usage and platform characteristics), the model must account for potential multicollinearity. Regular diagnostic checks (e.g., Variance Inflation Factor, VIF) should be performed to ensure model stability.
+
+## Tools and Tech Used
+
+* **Python:** Natural Language Processing (NLP), Data Collection (Twitter API, Reddit API)
+* **R:** Sentiment Analysis, Visualization (ggplot2)
+* **QGIS:** Geographic Data Processing and Analysis
+* **Gephi:** Social Network Analysis
+* **NetworkX:** Network Analysis and Visualization
+* **Twint:** Twitter data scraping
+* **Hashtagify:** Hashtag Tracking and Analysis
