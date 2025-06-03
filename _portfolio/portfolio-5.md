@@ -24,10 +24,10 @@ This analysis explores patterns of human mobility and exposure to urban crime ri
 
 ## Visualization
 
-A sample map below visualises the spatial distribution of threat indices across London:
-
-![Threat Index](/images/londonThreatIndexLSOA.png)
+A sample map below visualises the spatial distribution of threat indices and path trajectory across London:
 ![Path Trajectory](/images/top5road.png)
+![Threat Index](/images/londonThreatIndexLSOA.png)
+
 
 ## Tools Used
 
