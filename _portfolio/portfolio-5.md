@@ -1,32 +1,42 @@
 ---
-title: "Monthly Temperature Distribution Analysis: Lincoln"
-excerpt: "Max and Min Temperature Monthly Analysis <br/><img src='/images/Rplot22.png'>"
+title: "Mapping Crime Exposure Risk in London"
+excerpt: "<br/><img src='/images/london_crime_risk_map.png'>"
 collection: portfolio
 ---
 
-**A ridge plot visualization of monthly temperature distributions in the Lincoln region using density gradients and jittered points.**
+**Yujing Yang**
 
-This analysis presents the monthly temperature distributions in the Lincoln region through a ridge plot (the sample data is from "ggridges" package). The plot visualizes the density of mean temperatures for each month of the year, providing insights into seasonal temperature variations and their distributions.
+This analysis explores patterns of human mobility and exposure to urban crime risks in Greater London.
 
 ## Analysis Overview
 
-The ridge plot shows the mean temperature distribution for each month, utilizing density ridges to illustrate the probability density function. The plot also includes jittered points to depict individual data observations, giving a more granular view of temperature variability within each month.
+- **Objective:** Detect and visualise spatial hotspots in Greater London where residents are most exposed to crime-related risks, leveraging location-based social network data and auxiliary urban datasets.
+- **Approach:**  
+    1. **Risk Index Construction:** Built a “threat index” using a Random Forest model  
+    2. **Trajectory Analysis:** Tracked user movement paths with smartphone data.
+
 
 ## Key Findings
 
-- **Seasonal Trends**: The plot reveals distinct seasonal temperature patterns. Winter months like January and February have lower temperatures, while summer months such as July and August feature higher temperatures.
-  
-- **Temperature Variability**: The density ridges' width and height reflect the temperature variability each month. Winter months have narrower distributions with lower peaks, indicating a tighter range of temperatures. In contrast, summer months exhibit broader distributions with higher peaks, suggesting a wider range of temperatures.
-  
-- **Probability Density**: The color gradient within each ridge, ranging from yellow to green to blue, represents temperature probability density. Lighter colors indicate lower density (fewer occurrences), while darker colors indicate higher density (more occurrences).
+- **Fine-Grained Risk Mapping:** Generated spatial risk maps at LSOA scale, revealing pronounced clusters of high exposure risk in Central and East London.
+- 
+- **Resident-Filtered Analysis:** By focusing on stable users (3+ months), the analysis reflects actual daily risks faced by London residents.
 
 ## Visualization
 
-The ridge plot below visualizes the mean temperature distributions for each month in the Lincoln region. 
-![Monthly Temperature Distribution](/images/Rplot22.png)
+A sample map below visualises the spatial distribution of threat indices across London:
+
+![Threat Index](/images/londonThreatIndexLSOA.png)
+![Path Trajectory](/images/top5road.png)
 
 ## Tools Used
 
-- **R**: The plot was generated using R with the `ggplot2` and `ggridges` libraries for data visualization.
+- **Python:** Data cleaning, machine learning (Random Forest), PCA
+- **GIS:** Spatial data processing,Trajectory Mapping 
+- **Open Data:** Gowalla check-in dataset, ONS & Police UK crime data, OpenStreetMap POIs
 
-This analysis provides a detailed perspective on the temperature distributions across different months in the Lincoln region, offering a view into seasonal weather patterns and variability. 
+---
+
+_Data Sources: Gowalla; Office for National Statistics; Police UK; London Datastore; OpenStreetMap_
+
+ 
